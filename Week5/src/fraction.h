@@ -134,12 +134,9 @@ private:
 			}
 		}
 		else if(_numerator == 0) {
+			_sign = '+';
 			if(_denominator < 0) {
 				_denominator = -_denominator;
-				_sign = '-';
-			}
-			else {
-				_sign = '+';
 			}
 		}
 		else if(_numerator == 0) {
